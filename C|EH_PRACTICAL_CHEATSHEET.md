@@ -442,4 +442,9 @@ GOBUSTER:
 •	gobuster dir -u <http://10.10.230.124/> -w /usr/share/wordlists/dirb/common.txt 2>/dev/null
 •	gobuster dir -u <http://10.10.230.124/> -x txt,html -w /usr/share/wordlists/dirb/common.txt 2>/dev/null → Enumerating Directory with Specific Extension List
 •	gobuster dir -u <http://10.10.230.124/dvwa> -w /usr/share/wordlists/dirb/common.txt -o output.txt 2>/dev/null → Save Output to Disk
+	
+CLOUD COMPUTING (OWNCLOUD)
+SOME EXTRA WORK:
+	Check RDP enabled after getting ip- nmap -p 3389 -iL ip.txt | grep open (ip.txt contains all the alive hosts from target subnet)
+	Check MySQL service running- nmap -p 3306 -iL ip.txt | grep open        (ip.txt contains all the alive hosts from target subnet)
 
