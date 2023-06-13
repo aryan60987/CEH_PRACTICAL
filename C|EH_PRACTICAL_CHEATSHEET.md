@@ -73,6 +73,7 @@ HYDRA:
 ------------------------------------------------------------------------------------------------
 STEGNOGRAPHY:
 1)snow.exe -C -p "test" confidential.txt
+2)snow.exe -C -m "secret number : 3131244" -p "magic" readme.txt readme2.txt
 -C  compressing / uncompressing
 -p  password
 Open Stego (GUI tool)
